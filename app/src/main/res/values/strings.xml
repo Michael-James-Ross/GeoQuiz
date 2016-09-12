@@ -1,8 +1,12 @@
 <resources>
     <string name="app_name">GeoQuiz</string>
-    <string name="question_text">Kyiv is the capital of Ukraine</string>
+    <string name="question_capital">Kyiv is the capital of Ukraine</string>
+    <string name="question_ocean">Atlantic ocean is biggest then Pacific</string>
+    <string name="question_sea">Ukraine has access to Notrh sea</string>
+    <string name="question_country">Japan is situated in Europe</string>
     <string name="true_button">Yes</string>
     <string name="false_button">No</string>
     <string name="correct_toast">Correct!</string>
     <string name="incorrect_toast">Incorrect!</string>
+    <string name="next_button">Next</string>
 </resources>
