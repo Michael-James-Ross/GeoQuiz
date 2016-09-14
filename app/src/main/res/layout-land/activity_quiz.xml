@@ -8,30 +8,48 @@
     android:gravity="center"
     tools:context="com.onyshchenko.artem.geoquiz.QuizActivity">
 
-    <TextView
-        android:id="@+id/questionTextTxtView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:padding="24dp"
-        android:text="@string/question_capital" />
+
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:layout_gravity="center_vertical|center_horizontal">
-        <Button
-            android:id="@+id/trueBtn"
+        <TextView
+            android:id="@+id/questionTextTxtView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/true_button"/>
-        <Button
-            android:id="@+id/falseBtn"
+            android:layout_gravity="center_horizontal"
+            android:padding="24dp"
+            android:text="@string/question_capital" />
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/false_button"/>
+            android:layout_gravity="center_horizontal">
+            <Button
+                android:id="@+id/trueBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/true_button"/>
+            <Button
+                android:id="@+id/falseBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/false_button"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+            <Button
+                android:id="@+id/cheatBtn"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cheat_button"/>
+        </LinearLayout>
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
